@@ -1,0 +1,195 @@
+## .NET / Visual Studio / Rider — ignore build & IDE junk
+## Based on https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Mono
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+Generated\ Files/
+
+# JetBrains Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# .NET Core / NuGet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Build / compiler leftovers
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.binlog
+
+# Visual C++ / profiler / cache
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+*.psess
+*.vsp
+*.vspx
+*.sap
+*.e2e
+*.[Cc]ache
+!?*.[Cc]ache/
+
+# ReSharper / coverage tools
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+*.dotCover
+.axoCover/*
+!.axoCover/settings.json
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# Publish / ClickOnce / Azure
+publish/
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishScripts/
+csx/
+*.build.csdef
+ecf/
+rcf/
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+
+# Local secrets & certificates (do not commit)
+*.pfx
+*.publishsettings
+appsettings.*.local.json
+secrets.json
+
+# SQL / local DB files
+*.mdf
+*.ldf
+*.ndf
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*~
+
+# Others
+ClientBin/
+orleans.codegen.cs
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+*.rptproj.bak
+FakesAssemblies/
+*.GhostDoc.xml
+node_modules/
+.ntvs_analysis.dat
+.paket/paket.exe
+paket-files/
+.fake/
+.localhistory/
+MigrationBackup/
+.ionide/
+FodyWeavers.xsd
+healthchecksdb
+OpenCover/
+ASALocalRun/
+*.nvuser
+.mfractor/
